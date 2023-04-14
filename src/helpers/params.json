@@ -1,0 +1,47 @@
+{
+    "project": {
+      "name": "Project Go Online",
+      "technology": "MERN",
+      "email": "admin@gmail.com"
+    },
+    "author": [
+      {
+        "name": "Puneet Dwivedi",
+        "email": "pdwivedi294@gmail.com"
+      },
+      {
+        "name": "Monika Patidar",
+        "email": "monikapatidar33440@gmail.com"
+      },
+      {
+        "name": "Prashant Singh Solanki",
+        "email": "prashant.solanki8787@gmail.com"
+      }
+    ],
+    "message": {
+      "error": {
+        "common": "Some Error Occured, Please try again later.",
+        "userNOtFound": "Username does not exist.",
+        "passwordDoNotMatch": "Password do not match.",
+        "server": "Server Error, Try after sometime.",
+        "emailNotSent": "Email Not Sent, Some Error Occured",
+        "usernameAlreadyExist": "UserName already exist.",
+        "emailAlreadyExist": "Email already exist",
+        "tokenNotValid": "Access Token Not Valid",
+        "accessTokenNotFound": "Access Token is not set in request header",
+        "mobileNumberAlreadyExist": "Mobile Number already exist.",
+        "firstVerifyYourAccount":"First verify your account , link has been sent in your mail"
+        
+      },
+      "success": {
+        "signup": "Sign Up Successful, Now you can login",
+        "workPosted":"User work is registered successfully",
+        "workUpdated":"User work is updated successfully",
+        "alreadyWorkProposed":"Worker is already proposed for work"
+      },
+      "info": {
+        "emailOn": "Info Mail is ready to send, In order to sent mail set MAIL_ON 1 in .env"
+      }
+    }
+  }
+  

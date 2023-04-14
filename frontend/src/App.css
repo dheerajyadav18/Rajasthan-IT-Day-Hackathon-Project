@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+.signup {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup_container {
+  width: 400px;
+  height: auto;
+  padding: 15px;
+  /* border: 2px solid rgb(218, 220, 235); */
+  border-radius: 4px;
+  background: #eee;
+}
+
+.signup_group {
+  margin: 10px 0;
+}
+
+.signup_input {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid #d2dbdb;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  color: #fff;
+  height: 40px;
+  padding: 0 13px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-smart {
+  width: 100%;
+  background: #5664c5;
+}
+
+.signup_radio {
+  margin: 5px;
+}
+
+.signup_group span {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+#searchResultSidebarContainer::-webkit-scrollbar {
+  width: 5px;
+  /* width of the entire scrollbar */
+}
+
+#searchResultSidebarContainer::-webkit-scrollbar-thumb {
+  /* background-color: #a0a0a0; */
+  background-color: linear-gradient(180deg, #DAE2FF 0%, rgba(243, 255, 239, 0) 100%);
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  /* border: 3px solid orange;  creates padding around scroll thumb */
+}
+
+body {
+  /* background-color: linear-gradient(180deg, #DAE2FF 0%, rgba(243, 255, 239, 0) 100%); */
+  /* background: linear-gradient(180deg, #DAE2FF 0%, rgba(243, 255, 239, 0) 100%); 
+  */
+  /* background: linear-gradient(180deg, #DAE2FF 0%, rgba(243, 255, 239, 0) 100%); */
+  min-height: 100vh;
+}
+
+
+#searchResultSidebarContainer::-webkit-scrollbar,
+#profileProposalscomponent::-webkit-scrollbar,
+#profileReview::-webkit-scrollbar,
+#workProposalLeft::-webkit-scrollbar,
+#workProposalRight::-webkit-scrollbar {
+  width: 5px;
+  /* width of the entire scrollbar */
+}
+
+#searchResultSidebarContainer::-webkit-scrollbar-thumb #profileProposalscomponent::-webkit-scrollbar-thumb,
+#profileReview::-webkit-scrollbar-thumb,
+#workProposalLeft::-webkit-scrollbar-thumb,
+#workProposalRight::-webkit-scrollbar-thumb {
+  background-color: #a0a0a0;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  /* border: 3px solid orange;  creates padding around scroll thumb */
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+header ul li {
+  position: relative;
+  padding: 5px;
+
+}
+
+header ul li::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  width: 0%;
+  transition: ease-in-out 300ms;
+}
+
+header ul li:hover::before {
+  width: 100%;
+}
+
+#heroButton:hover>span {
+  transform: scale(1.2);
+  transition: all ease-in-out 200ms;
+}
+
+#heroButton:hover:last-child {
+  text-decoration: underline;
+  text-decoration-color: #fd1;
+  transition: all ease-in-out 200ms;
+}
+
+.Cards1 {
+  position: absolute;
+  width: 365px;
+  height: 250px;
+  left: 40px;
+  top: 20px;
+
+  background: url("https://images.unsplash.com/photo-1482731215275-a1f151646268?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Cards2 {
+
+  position: absolute;
+  width: 195px;
+  height: 162px;
+  right: 40px;
+  top: 0px;
+
+ background: url("https://images.unsplash.com/photo-1530124566582-a618bc2615dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.Cards3 {
+  position: absolute;
+  width: 237px;
+  height: 207px;
+  left: -20px;
+  top: 300px;
+
+  background: url("https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.Cards4 {
+  position: absolute;
+  width: 180px;
+  height: 162px;
+  left: 40px;
+  top: 530px;
+
+  background: url("https://images.unsplash.com/photo-1616610269931-04d58b579ddf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1133&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.Cards5 {
+  position: absolute;
+  width: 152px;
+  height: 120px;
+  left: 252px;
+  top: 305px;
+
+  background: url("https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Cards6 {
+  position: absolute;
+  width: 260px;
+  height: 232px;
+  right: -20px;
+  top: 190px;
+
+  background: url("https://images.unsplash.com/photo-1514472796143-14ece5ab7d94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Cards7 {
+  position: absolute;
+  width: 365px;
+  height: 215px;
+  left: 250px;
+  top: 455px;
+
+  background: url("https://images.unsplash.com/photo-1487452066049-a710f7296400?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* piyush write cdoe here */
+
+
+/* .hero-section { */
+/* background-color: aqua; */
+/* height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+} */
+/* 
+.image1 {
+  height: 800px;
+  
+
+} */
+/* 
+.card1 {
+  background-color: white;
+  height: 450px;
+  width: 500px;
+  border-radius: 10px;
+} */
+
+/* .c1btn,
+.c2btn {
+   /* background-color: black;properties for the two button on the card find worker & register as a worker */
+/* color: white; */
+/* padding: 10px; */
+/* border-radius: 10px; */
+/* transition: 0.4s; */
+/* margin-left: 25px; */
+/* } */
+/* 
+.c1btn:hover { 
+  background-color: white;
+} */
+
+/* h1 {
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 40px;
+  margin-left: 25px;
+
+} */
+
+/* #pickup,
+#destination {
+  padding: 30px;
+  width: 750px;
+  color: black;
+  background-color: grey;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-left: 25px;
+
+} */
+
+.searchnow-btn,
+.searchlater-btn,
+.signuptogetpaidbtn {
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 25px;
+  border-radius: 10px;
+  width: 321px;
+}
+
+#searchlaterbtn {
+  background-color: grey;
+}
+
+/* .card2 { this is the card which appear when we click on the register as a worker */
+/* background-color: white;
+  height: 600px;
+  width: 800px;
+  margin-left: 20px;
+
+  position: relative;
+  right: 20px;
+  border-radius: 10px;
+  
+
+} */
+/* main content css*/
+.main-heading {
+  font-family: 'Comfortaa', cursive;
+  font-size: 50px;
+  margin-left: 24.5rem;
+}

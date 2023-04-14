@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1762be22.css",
+    "main.js": "/static/js/main.96a9da59.js",
+    "static/media/shuffleimages.jpg": "/static/media/shuffleimages.eccfa6650ecca0c03802.jpg",
+    "static/media/ABOUTW.jpg": "/static/media/ABOUTW.5c39ebcf59d32be0a8be.jpg",
+    "static/media/search_image_with_type1.png": "/static/media/search_image_with_type1.c868f6d55d26af34f534.png",
+    "static/media/workerimage.jpg": "/static/media/workerimage.4ff845eb6e2ecc9571d2.jpg",
+    "static/media/labour3.webp": "/static/media/labour3.76f83c8380e99c2153ec.webp",
+    "static/media/loginIconEmoji.png": "/static/media/loginIconEmoji.83ced59706c10d6047e6.png",
+    "static/media/labour1.webp": "/static/media/labour1.79b0e6c7dc84e095bffc.webp",
+    "static/media/sidebar_top.jpg": "/static/media/sidebar_top.b5ad4abda95fb48a67c6.jpg",
+    "static/media/no_result_image_found.webp": "/static/media/no_result_image_found.45a7f0e982b74c1fe407.webp",
+    "index.html": "/index.html",
+    "main.1762be22.css.map": "/static/css/main.1762be22.css.map",
+    "main.96a9da59.js.map": "/static/js/main.96a9da59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1762be22.css",
+    "static/js/main.96a9da59.js"
+  ]
+}
